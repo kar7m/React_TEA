@@ -1,0 +1,153 @@
+.wrapper {
+  width: 100%;
+  max-width: 800px;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+.header__banner {
+  width: 100%;
+  height: 320px;
+  background-color: #e6f3be;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__content {
+  width: calc(100% / 2);
+  padding: 20px 32px 0 0;
+  text-align: center;
+}
+
+.header__image {
+  width: calc(100% / 2 - 20px);
+  height: 100%;
+  object-fit: cover;
+  background-image: url("./assets/image/watchHeader.png");
+}
+
+.btn__symbol {
+  background-color: #212121;
+  text-align: center;
+  cursor: pointer;
+  padding: 3px 6px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #212121;
+  font-weight: 600;
+}
+
+.partner__area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  &:hover {
+    transition: all 0.4s;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+}
+
+.card_wrapper {
+  background-color: #eaeaea;
+  padding: 16px;
+  width: calc(100% / 5 - 10px);
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 6px 6px;
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 2px 3px;
+    transition: all 0.4s;
+  }
+}
+
+.priceAndDiscount {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.stars_icons {
+  width: calc(100% / 5 - 4px);
+  height: 20px;
+}
+
+.allStars {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  & img {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.discount__price {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  background-color: red;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 100px;
+  opacity: 80%;
+}
+
+.discount__price__text {
+  text-align: center;
+  padding-top: 6px;
+  font-size: 16px;
+}
+
+.card_wrapper > img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.product_price {
+  font-weight: 600;
+}
+
+.product__price__disabled {
+  text-decoration: line-through;
+}
+
+.star__filled {
+  & path {
+    fill: orange;
+  }
+}
+
+.star__stroke {
+  & path {
+    stroke-width: 2;
+    stroke: darkorange;
+  }
+}
+
+.add_product__btn {
+  background-color: #4b4b4b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  &:hover {
+    background-color: #a7a7a7;
+    color: black;
+    transition: all 0.4s;
+  }
+}
