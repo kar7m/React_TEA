@@ -1,0 +1,133 @@
+.header__banner {
+  width: 100%;
+  max-width: 1000px;
+  padding: 16px;
+  background-color: rgb(221, 243, 231);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__content {
+  text-align: center;
+  padding: 16px;
+  width: 50%;
+}
+
+.HeadingOne {
+  font-weight: 100;
+  font-size: 40px;
+  color: rgb(80, 80, 80);
+}
+
+.HeadingTwo {
+  font-size: 22px;
+  color: darkorange;
+}
+
+.header__btn {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 620px) {
+  .header__banner {
+    display: block;
+    width: 100%;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card__wrapper {
+  width: 100%;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.card {
+  width: calc(100% / 5);
+  padding: 10px;
+  background-color: #eaeaea;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  & img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 10px;
+    transition: all 0.4s;
+  }
+}
+
+.cart__title {
+  margin: 4px auto;
+  color: rgb(11, 11, 70);
+}
+
+.card__raiting {
+  width: 100%;
+  padding: 6px 2px;
+  display: flex;
+  gap: 4px;
+}
+.star__filled {
+  & path {
+    fill: rgb(181, 99, 0);
+  }
+}
+.stars__stroke {
+  & path {
+    stroke-width: 2;
+    stroke: rgb(139, 69, 0);
+  }
+}
+
+.price__and__discount{
+  width: 100%;
+  padding: 6px 2px;
+  background-color: #eaeaea;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product__price{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.add__produc__btn{
+  padding: 4px 8px;
+  background-color: darkgreen;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  &:hover{
+    background-color: rgb(61, 165, 73);
+    color: black;
+    transition: all 0.4s;
+  }
+}
+
+.brands__wrapper{
+  width: 100%;
+  padding: 16px;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+

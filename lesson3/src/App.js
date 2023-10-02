@@ -29,7 +29,7 @@ const products = [
     img: SecondImage,
     rating:4,
     price: 600,
-    discountPrice: 680,
+    discountPrice: 560,
   },
   {
     title: "Gel",
