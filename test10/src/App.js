@@ -29,7 +29,7 @@ export default class App extends Component {
         </div>
         <h4>OUR BRANDS</h4>
         <hr />
-        <Brands />
+        <Brands />  
       </div>
     );
   }

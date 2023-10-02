@@ -34,9 +34,7 @@
   {
     "id": 1,
     "image": "http://localhost:3000/images/five.png",
-    "title": "Air Pods",
     "rating": 5,
-    "price": 200,
-    "discountPrice": 160
+    "price": 200
   }
 ]

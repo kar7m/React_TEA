@@ -1,6 +1,5 @@
 .header__banner {
   width: 100%;
-  max-width: 1000px;
   padding: 16px;
   background-color: rgb(221, 243, 231);
   margin: 0 auto;
@@ -47,6 +46,7 @@
 
 .card__wrapper {
   width: 100%;
+  max-width: 1000px;
   padding: 12px;
   display: flex;
   align-items: center;
@@ -131,3 +131,6 @@
   justify-content: space-around;
 }
 
+.price__line{
+  text-decoration: line-through;
+}
