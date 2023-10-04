@@ -67,6 +67,7 @@
   &:hover {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 10px;
     transition: all 0.4s;
+    border-top: 2px solid darkgreen;
   }
 }
 

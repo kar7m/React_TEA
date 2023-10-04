@@ -11,7 +11,7 @@ export default class HeaderBanner extends Component {
             <h1 className="HeadingOne">DICOVE &#174;</h1>
             <h4 className="HeadingFour">lorem ipsum | lorem ipsum | lorem ipsum</h4>
             <h2 className="HeadingTwo">Collection 2014!</h2>
-            <a className="header__btn" href="www.Example.com">SHOP NOW &#x21e2;</a>
+            <a className="header__btn" href="www.example.com">SHOP NOW &#x21e2;</a>
           </div>
       </div>
     </div>;

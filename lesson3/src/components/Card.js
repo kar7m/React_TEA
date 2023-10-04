@@ -63,4 +63,4 @@ Card.defaultProps = {
   price: 0,
 };
 
-export default Card;
+export default Card;  

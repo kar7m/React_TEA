@@ -7,7 +7,24 @@ import Brands from "./components/Brands";
 import data from "./data.json";
 
 export default class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      background: "red",
+    };
+  }
+
+  getRandomvarColor = () => {
+    let letters = "0123456789ABCDEF";
+    let color = "#";
+    for (var i = 0; i < 6; i++) {
+      color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+  };
+
   render() {
+    const { background } = this.state;
     return (
       <div className="wrapper">
         <HeaderBanner />
@@ -29,7 +46,15 @@ export default class App extends Component {
         </div>
         <h4>OUR BRANDS</h4>
         <hr />
-        <Brands />  
+        <Brands />
+        <div style={{ width: "100px", height: "100px", background }}></div>
+        <button
+          onClick={() => {
+            this.setState({ background: this.getRandomvarColor() });
+          }}
+        >
+          Click
+        </button>
       </div>
     );
   }
