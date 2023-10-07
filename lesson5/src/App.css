@@ -1,0 +1,90 @@
+.wrappper {
+  width: 500px;
+  padding: 20px;
+}
+
+.heading{
+  font-size: 32px;
+  font-weight: 700;
+  color: darkgreen;
+}
+
+.task__input {
+  width: 90%;
+  outline: none;
+  border-radius: 0;
+  border: 1px solid #ccc;
+  height: 48px;
+  padding-left: 16px;
+}
+
+.add__item__btn {
+  width: 94%;
+  margin-top: 16px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  background-color: rgb(5, 5, 72);
+  border: none;
+  &:hover {
+    transition: all 0.5s;
+    background-color: darkblue;
+  }
+}
+
+.deleted__task{
+  text-decoration: line-through;
+  font-size: 18px;
+  color: rgb(96, 10, 10);
+}
+
+.new__task{
+  text-decoration:none;
+  font-size: 18px;
+  color: rgb(3, 3, 51);
+
+}
+
+.tasks__wrapper{
+  width: 90%;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.done__delete__btns{
+  display: flex;
+  gap: 12px;
+}
+
+.delete__btn{
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  color: white;
+  background-color: darkgreen;
+  font-weight: 600;
+  &:hover{
+    transition: all 0.5s;
+    background-color: green;
+  }
+}
+
+.done__btn{
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  color: white;
+  background-color: darkgreen;
+  font-weight: 600;
+  &:hover{
+    transition: all 0.5s;
+    background-color: green;
+  }  
+}
